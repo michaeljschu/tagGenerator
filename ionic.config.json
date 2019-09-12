@@ -1,0 +1,7 @@
+{
+  "name": "tagGenerator",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Tag Generator
+    </ion-title>
+    <ion-buttons>
+      <ion-button routerLink="/about" routerDirection="forward">
+        About
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card (click)="giveAnswer()">
+
+    <ion-card-header>
+      Click for a Tag
+    </ion-card-header>
+
+    <ion-card-content>
+      <img src="assets/giphy.gif" [ngClass]="cssClass" alt="Tag Generator">
+    </ion-card-content>
+
+  </ion-card>
+</ion-content>
